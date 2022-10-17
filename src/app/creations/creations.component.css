@@ -1,0 +1,798 @@
+*{
+    font-size: clamp(0.9rem, 1.1vw, 1.1rem); 
+  
+    padding-top: 5vh;
+    color: white;
+    
+}
+
+.s1{
+  
+    padding: 0;
+    background: #051923;
+ 
+}
+
+.s2{
+    background:#0c1821;
+ 
+    margin: 0;
+    /* min-height: 80vh ; */
+}
+
+/* .s3{
+    background: rgb(181, 166, 166);
+    
+    min-height: 80vh; 
+} */
+
+
+
+.learn{
+    text-decoration: none;
+    color: white;
+}
+
+.learn:hover{
+    color: #00b4d8;
+}
+
+.col-s1-g {
+    display: flex;
+}
+
+.gestion_0{
+    padding: 0;
+    padding-left: 48px;
+    margin: 0;
+    width: auto;
+}
+
+.text-gestion{ 
+    padding: 0;
+    padding-left: 5px;
+}
+
+.text-gestion h4 {
+    padding-top: 35px;
+    padding-left: 5px;
+    font-size: clamp(0.7rem, 1vw, 1.1rem); 
+}
+
+.text-gestion a {
+    padding-top: 0;
+    padding-left: 5px;
+    font-size: clamp(0.7rem, 1vw, 1.1rem); 
+}
+
+.card-img-s1-0{
+    /* width: 100%;
+    height: auto;  */
+    /* display: block; */
+    width: 140px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+    border-radius: 25%;
+
+}
+
+ /* .r1{
+    height: 350px;
+ } */
+
+.parent-s1{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    /* margin: 25px; */
+    /* background-color: aqua; */
+ 
+}
+
+
+.card-img-s1-1{
+    position: absolute;
+    width: 30%;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+}
+.card-img-s1-2{
+ 
+    position: absolute;
+    width: 30%;
+    padding: 0;
+    right: 50%;
+    top: 50%;
+    z-index: 1;
+    transform: translate(100%,-5%);
+   
+} 
+
+/* .divparent {
+
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+   
+}
+
+.divenfant1{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+}
+.divenfant2{
+    width: 100%;
+    height: 100%;
+    top: 70px;
+    right: 50px;
+    background-color: rgb(115, 255, 0);
+    position: absolute;
+    z-index: 2;
+} */
+
+
+/* 
+.parent-s1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 479px;
+    height: 300px;
+}
+
+ 
+
+
+.img1{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url(/assets/images/mesCreations/gestion_4.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left:  100px;
+    z-index: 3;
+ 
+}
+.img2{
+ 
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(/assets/images/mesCreations/gestion_3.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left:  100px;
+    z-index: 1;
+ 
+}  */
+
+ 
+
+
+
+/* .parent-s1::before{
+    content:url(/assets/images/mesCreations/gestion_3.PNG) ;
+    position:absolute; 
+  
+    width: 20%;
+    min-height: 20vh;
+    top: 0;
+} */
+
+/* .parent-s1{
+    background-image: url(/assets/images/mesCreations/gestion_4.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    position: relative;
+    width: 50%;
+    height: 50%;
+    
+    left: 700px;
+    top: 0;
+} */
+
+/* .parent-s1::after{
+    content:url(/assets/images/mesCreations/gestion_4.PNG) ;
+    position:absolute; 
+    z-index: 3;
+    width: 20%;
+    min-height: 20vh;
+    left:  0;
+    top: 0;
+} */
+
+.mon_div::before{ 
+    content:url(/assets/images/mesCreations/gestion_3.PNG) ;
+    position:absolute; 
+    z-index: 6;
+    width: 40%;
+    right: 0;
+   }
+.mon_div {
+    background-image: url(/assets/images/mesCreations/gestion_4.PNG);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 30%;
+    min-height: 80vh;
+    z-index: 1;
+    bottom: 0;
+
+}
+
+
+
+.parent {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.child1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background: red;
+}
+
+.child2 {
+    z-index: 1;
+    margin: 30px;
+    background: green;
+}
+
+/*************************** section 2 **********************/
+
+.parent-s2{
+    position: relative; 
+    width: 100%;
+    min-height: 50vh;
+}
+.learn1{
+    text-decoration: none;
+    color: white;
+}
+
+.learn1:hover{
+    color: #00b4d8;
+}
+/* 
+.card-img-s2-0{
+    float: left;
+    width: 20%;
+    height: auto; 
+    background-size:  cover;
+    padding: 0;
+    margin: 0;
+} */
+
+.col-s2-g {
+    display: flex;
+}
+
+.logometeo{
+    padding: 0;
+    margin: 0;
+    width: auto;
+ 
+}
+
+.text-meteo{
+    padding: 0;
+}
+
+.text-meteo h4{
+    /* margin: 0;
+    padding: 0; */
+    padding-top: 4%;
+    font-size: clamp(0.7rem, 1vw, 1.1rem); 
+    justify-content:  center;
+}
+
+.text-meteo .learn{
+    margin-top: 10%;
+    padding: 0;
+    font-size: clamp(0.7rem, 1vw, 1.1rem); 
+   
+}
+
+.card-img-s2-0{
+    padding: 0;
+    width: 170px;
+    height: 120px;
+    /* width: 100%;
+    height: 40%; */
+    padding-left:48px;
+    margin: 0;
+}
+
+.card-img-s2-1{
+    width: 22%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+}
+
+.card-img-s2-2{
+    position: absolute;
+    width:  22%;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,-30%);
+    z-index: 2;
+    padding: 0;
+
+} 
+
+/*** Extra large ≥1200px ****/
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .parent-s1{
+ 
+        height: 40vh;
+        padding: 0 ;
+    }
+
+    .card-img-s1-1 {
+        width: 35%;
+        left: 40%;
+        top: 50%;
+        transform: translate(0%,-50%);
+    }
+
+    .card-img-s1-2 {
+        width: 35%;
+        left: 40%;
+        top: 50%;
+        transform: translate(50%,0%);
+         
+    }
+
+    /* .card-img-s2-0{
+        width: 180px;
+        height: 170px;
+        padding-left: 0;
+        margin: 0;
+    } */
+
+    .col-s2-g h4{
+        padding-top: 10%;
+        font-size: 1.5vh;
+    }
+
+    .text-meteo a{
+        font-size: 1.5vh;
+    }
+
+    .parent-s2{
+        height: 40vh;
+    }
+   
+
+    .card-img-s2-1{
+        width: 30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .card-img-s2-2{
+        width:  30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(0%,-25%);
+    } 
+
+}
+
+/*** large ≥992px  & <= 1199px ****/
+@media (max-width : 1199px){
+
+    .parent-s1{
+ 
+        height: 40vh;
+        padding: 0 ;
+    }
+
+    .card-img-s1-1 {
+        width: 40%;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .card-img-s1-2 {
+        width: 40%;
+        left: 40%;
+        top: 50%;
+        transform: translate(0%,0%);
+         
+    }
+
+        
+    .logometeo{
+       
+        padding-left: 48px;
+   }
+
+   .parent-s1{
+ 
+    height: 40vh;
+    padding: 0 ;
+    }
+
+    .card-img-s2-0{
+        width: 180px;
+        height: 170px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .col-s2-g h4{
+        padding-top: 15%;
+        font-size: 1.5vh;
+    }
+
+    .text-meteo a{
+        font-size: 1.5vh;
+    }
+
+    .card-img-s2-1{
+        width: 30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%,-50%);
+    }
+
+    .card-img-s2-2{
+        width:  30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+    } 
+}
+
+
+/*** medium ≥768px  & <= 991px ****/
+@media (max-width: 991px) {
+    
+    .card-img-s1-0{
+        width: 230px;
+        height: 180px;
+    }
+
+    .text-gestion {
+        padding: 7% 4%;
+    }
+    .text-gestion h4{
+        padding: 0;
+        font-size: 1.9vh;
+    }
+    .text-gestion a{
+        padding: 0;
+        font-size: 1.9vh;
+    }
+
+    .parent-s1{
+ 
+        height: 600px;
+        padding: 0 ;
+    }
+
+    .card-img-s1-1 {
+        width: 40%;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .card-img-s1-2 {
+        width: 40%;
+        left: 40%;
+        top: 50%;
+        transform: translate(0%,0%);
+         
+    }
+
+
+    
+    .logometeo{
+       
+        padding-left: 48px;
+   }
+
+   .parent-s1{
+ 
+    height: 600px;
+    padding: 0 ;
+    }
+
+    .card-img-s2-0{
+
+  
+        width: 180px;
+        height: 170px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .col-s2-g h4{
+ 
+        padding-top: 15%;
+        font-size: 1.8vh;
+    }
+
+    .text-meteo a{
+        font-size: 1.8vh;
+ 
+ 
+    }
+
+    .card-img-s2-1{
+        width: 30%;
+        /* max-width: 200px; */
+        max-width: 180px;
+        max-width: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-70%,-50%);
+    }
+
+    .card-img-s2-2{
+        width:  30%;
+        /* max-width: 200px; */
+        max-width: 180px;
+        max-width: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%,-25%);
+
+
+    } 
+}
+
+
+/*** small ≥576px  & <= 767px ****/
+@media(max-width:767px){
+
+    
+    /* .gestion_0{
+        width: 100px;
+        margin: 0;
+       
+   } */
+
+    .card-img-s1-0{
+        width: 220px;
+        height: 180px;
+    }
+    .text-gestion {
+        padding: 10% 4%;
+    }
+    .text-gestion h4{
+        padding: 0;
+        font-size: 1.9vh;
+    }
+    .text-gestion a{
+        padding: 0;
+        font-size: 1.9vh;
+    }
+
+    .parent-s1{
+        width: 100%;
+        margin: 0px;
+        height: 500px;
+        padding: 0 ;
+    }
+
+    .card-img-s1-1 {
+        width: 50%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-70%,-50%);
+    }
+
+    .card-img-s1-2 {
+        width: 50%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-20%,0%);
+         
+    }
+
+
+    .logometeo{
+       
+        padding-left: 48px;
+   }
+
+    .card-img-s2-0{
+
+  
+        width: 180px;
+        height: 170px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .col-s2-g h4{
+        padding: 0;
+        padding-top: 15%;
+        font-size: 1.8vh;
+    }
+
+    .text-meteo a{
+        font-size: 1.8vh;
+        padding: 0;
+        margin: 0;
+ 
+    }
+
+    .parent-s2{
+        width: 100%;
+        margin: 0px;
+        height: 500px;
+        padding: 0 ;
+    }
+
+    .card-img-s2-1{
+        width: 50%;
+        max-width: 190px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-70%,-50%);
+    }
+
+    .card-img-s2-2{
+        width:  50%;
+        max-width: 190px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%,-25%);
+
+
+    } 
+
+}
+
+
+/*** very small <= 575px ****/
+@media(max-width : 575px){
+
+    .gestion_0{
+         margin-top: 10%;
+         padding-left: 48px;
+    }
+
+    .card-img-s1-0{
+        width: 130px;
+        height: 100px;
+        border-radius: 10%;
+    }
+
+    .text-gestion {
+        padding-top: 15%;
+    }
+
+    .text-gestion h4{
+        padding: 0;
+        font-size: 1.5vh;
+        font-size: clamp(0.9rem, 1.1vw, 1.1rem); 
+    }
+
+    .text-gestion a{
+        padding: 0;
+        font-size: 1.5vh;
+    }
+
+    .parent-s1{
+       
+        margin: 0;
+        padding: 20px 5px;
+        width: 100%;
+        height: 300px;
+        
+    }
+
+    .card-img-s1-1 {
+        width: 50%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-70%,-50%);
+       
+    }
+
+    .card-img-s1-2 {
+        
+        width: 50%;
+        right: 50%;
+        top: 50%;
+        margin: 0;
+        transform: translate(-25%,0%);
+         
+    }
+
+ 
+    .parent-s2{
+    
+        margin: 0;
+        padding: 20px 5px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .logometeo{
+       
+        padding-left: 48px;
+   }
+
+    .card-img-s2-0{
+ 
+        /* width: 80%; 
+        max-width: 180px; */
+        width: 130px;
+        height: 130px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .col-s2-g h4{
+        padding: 0;
+        padding-top: 15%;
+        font-size: 1.5vh;
+    }
+
+
+    .card-img-s2-1{
+        width: 40%;
+        min-width: 120px;
+        max-width: 140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-70%,-50%);
+    }
+
+    .card-img-s2-2{
+        width:  40%;
+        min-width: 120px;
+        max-width: 140px;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%,-25%);
+
+
+    } 
+
+ 
+}
+
+@media(max-width : 360px){
+    .gestion_0{
+        margin-top: 10%;
+        padding-left: 10px;
+       
+   }
+   .logometeo{
+       
+    padding-left: 10px;
+}
+}

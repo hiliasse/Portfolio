@@ -1,0 +1,73 @@
+
+.header{
+    /* background-image: url("/assets/images/entete.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* background-color: #000814; */
+    background-color: #000814 ;
+    font-size: clamp(0.9rem, 1vw, 1.4rem); 
+}
+.navbar-brand {
+   color: white;
+   font-size: clamp(0.9rem, 1vw, 1.4rem); 
+}
+
+ul li a {
+    color: white;
+}
+
+
+ul li:hover{
+    background-color: #003566;
+    transition: all .8s;
+    transform: translateY(-2px);
+ }
+
+.form-check{
+    color: white;
+    font-size: clamp(0.9rem, 1vw, 1.4rem); 
+ }
+ 
+ 
+ @media (max-width : 794px) {
+    .form-check{
+        display: none;
+    }
+    ul li a{
+        font-size: 13px;
+    }
+    .navbar-brand {
+
+        font-size: 13px;
+    }
+    
+ }
+
+ @media (max-width :622px) {
+    ul li a{
+        font-size: 13px;
+ 
+        padding: 5px;
+
+    }
+    .navbar-brand {
+
+        font-size: 13px;
+    }
+    
+ }
+
+ @media (max-width :574px) {
+    ul {
+        display: block;
+    
+        margin-left: 50%;
+    }
+
+    ul li {
+      text-align: center;
+    }
+    
+
+ }
