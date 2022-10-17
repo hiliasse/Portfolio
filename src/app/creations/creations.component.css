@@ -1,13 +1,11 @@
 *{
     font-size: clamp(0.9rem, 1.1vw, 1.1rem); 
-  
     padding-top: 5vh;
     color: white;
     
 }
 
 .s1{
-  
     padding: 0;
     background: #051923;
  
@@ -15,18 +13,8 @@
 
 .s2{
     background:#0c1821;
- 
     margin: 0;
-    /* min-height: 80vh ; */
 }
-
-/* .s3{
-    background: rgb(181, 166, 166);
-    
-    min-height: 80vh; 
-} */
-
-
 
 .learn{
     text-decoration: none;
@@ -44,7 +32,7 @@
 .gestion_0{
     padding: 0;
     padding-left: 48px;
-    margin: 0;
+    /* margin: 0; */
     width: auto;
 }
 
@@ -66,9 +54,7 @@
 }
 
 .card-img-s1-0{
-    /* width: 100%;
-    height: auto;  */
-    /* display: block; */
+ 
     width: 140px;
     height: 120px;
     padding: 0;
@@ -77,16 +63,12 @@
 
 }
 
- /* .r1{
-    height: 350px;
- } */
-
+ 
 .parent-s1{
     position: relative;
     width: 100%;
     height: 450px;
-    /* margin: 25px; */
-    /* background-color: aqua; */
+ 
  
 }
 
@@ -213,7 +195,7 @@
     top: 0;
 } */
 
-.mon_div::before{ 
+/* .mon_div::before{ 
     content:url(/assets/images/mesCreations/gestion_3.PNG) ;
     position:absolute; 
     z-index: 6;
@@ -229,11 +211,11 @@
     z-index: 1;
     bottom: 0;
 
-}
+} */
 
 
 
-.parent {
+/* .parent {
     position: relative;
     width: 300px;
     height: 300px;
@@ -254,7 +236,7 @@
     z-index: 1;
     margin: 30px;
     background: green;
-}
+} */
 
 /*************************** section 2 **********************/
 
@@ -271,15 +253,6 @@
 .learn1:hover{
     color: #00b4d8;
 }
-/* 
-.card-img-s2-0{
-    float: left;
-    width: 20%;
-    height: auto; 
-    background-size:  cover;
-    padding: 0;
-    margin: 0;
-} */
 
 .col-s2-g {
     display: flex;
@@ -287,9 +260,8 @@
 
 .logometeo{
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
     width: auto;
- 
 }
 
 .text-meteo{
@@ -297,8 +269,7 @@
 }
 
 .text-meteo h4{
-    /* margin: 0;
-    padding: 0; */
+ 
     padding-top: 4%;
     font-size: clamp(0.7rem, 1vw, 1.1rem); 
     justify-content:  center;
@@ -315,10 +286,8 @@
     padding: 0;
     width: 170px;
     height: 120px;
-    /* width: 100%;
-    height: 40%; */
     padding-left:48px;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .card-img-s2-1{
@@ -327,7 +296,7 @@
     left: 50%;
     transform: translate(-50%,-60%);
     position: absolute;
-    z-index: 1;
+    /* z-index: 1; */
     padding: 0;
 }
 
@@ -409,7 +378,7 @@
     .parent-s1{
  
         height: 40vh;
-        padding: 0 ;
+        /* padding: 0 ; */
     }
 
     .card-img-s1-1 {
@@ -426,17 +395,14 @@
         transform: translate(0%,0%);
          
     }
-
-        
     .logometeo{
        
         padding-left: 48px;
    }
 
    .parent-s1{
- 
     height: 40vh;
-    padding: 0 ;
+    /* padding: 0 ; */
     }
 
     .card-img-s2-0{
@@ -470,7 +436,6 @@
     } 
 }
 
-
 /*** medium ≥768px  & <= 991px ****/
 @media (max-width: 991px) {
     
@@ -492,58 +457,48 @@
     }
 
     .parent-s1{
- 
         height: 600px;
-        padding: 0 ;
+        /* padding: 0 ; */
     }
 
-    .card-img-s1-1 {
+    /* .card-img-s1-1 {
         width: 40%;
         left: 40%;
         top: 50%;
         transform: translate(-50%,-50%);
-    }
+    } */
 
-    .card-img-s1-2 {
+    /* .card-img-s1-2 {
         width: 40%;
         left: 40%;
         top: 50%;
         transform: translate(0%,0%);
-         
-    }
+    } */
 
-
-    
     .logometeo{
-       
         padding-left: 48px;
    }
 
    .parent-s1{
  
     height: 600px;
-    padding: 0 ;
+    /* padding: 0 ; */
     }
 
     .card-img-s2-0{
-
-  
         width: 180px;
         height: 170px;
-        padding-left: 0;
-        margin: 0;
+        /* padding-left: 0;
+        margin: 0; */
     }
 
     .col-s2-g h4{
- 
         padding-top: 15%;
         font-size: 1.8vh;
     }
 
     .text-meteo a{
         font-size: 1.8vh;
- 
- 
     }
 
     .card-img-s2-1{
@@ -564,21 +519,12 @@
         top: 50%;
         left: 50%;
         transform: translate(-40%,-25%);
-
-
-    } 
+    }
 }
 
 
 /*** small ≥576px  & <= 767px ****/
 @media(max-width:767px){
-
-    
-    /* .gestion_0{
-        width: 100px;
-        margin: 0;
-       
-   } */
 
     .card-img-s1-0{
         width: 220px;
@@ -588,19 +534,19 @@
         padding: 10% 4%;
     }
     .text-gestion h4{
-        padding: 0;
+        /* padding: 0; */
         font-size: 1.9vh;
     }
     .text-gestion a{
-        padding: 0;
+        /* padding: 0; */
         font-size: 1.9vh;
     }
 
     .parent-s1{
         width: 100%;
-        margin: 0px;
+        /* margin: 0px; */
         height: 500px;
-        padding: 0 ;
+        /* padding: 0 ; */
     }
 
     .card-img-s1-1 {
@@ -615,42 +561,37 @@
         left: 50%;
         top: 50%;
         transform: translate(-20%,0%);
-         
     }
 
 
     .logometeo{
-       
         padding-left: 48px;
    }
 
     .card-img-s2-0{
-
-  
         width: 180px;
         height: 170px;
-        padding-left: 0;
-        margin: 0;
+        /* padding-left: 0;
+        margin: 0; */
     }
 
     .col-s2-g h4{
-        padding: 0;
+        /* padding: 0; */
         padding-top: 15%;
         font-size: 1.8vh;
     }
 
     .text-meteo a{
         font-size: 1.8vh;
-        padding: 0;
-        margin: 0;
- 
+        /* padding: 0;
+        margin: 0; */
     }
 
     .parent-s2{
         width: 100%;
         margin: 0px;
         height: 500px;
-        padding: 0 ;
+        /* padding: 0 ; */
     }
 
     .card-img-s2-1{
@@ -667,8 +608,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-40%,-25%);
-
-
     } 
 
 }
@@ -693,19 +632,18 @@
     }
 
     .text-gestion h4{
-        padding: 0;
+        /* padding: 0; */
         font-size: 1.5vh;
-        font-size: clamp(0.9rem, 1.1vw, 1.1rem); 
+        /* font-size: clamp(0.9rem, 1.1vw, 1.1rem);  */
     }
 
     .text-gestion a{
-        padding: 0;
+        /* padding: 0; */
         font-size: 1.5vh;
     }
 
     .parent-s1{
-       
-        margin: 0;
+        /* margin: 0; */
         padding: 20px 5px;
         width: 100%;
         height: 300px;
@@ -717,45 +655,40 @@
         left: 50%;
         top: 50%;
         transform: translate(-70%,-50%);
-       
     }
 
     .card-img-s1-2 {
-        
         width: 50%;
         right: 50%;
         top: 50%;
         margin: 0;
         transform: translate(-25%,0%);
-         
     }
 
  
     .parent-s2{
     
-        margin: 0;
+        /* margin: 0; */
         padding: 20px 5px;
         width: 100%;
         height: 300px;
     }
 
     .logometeo{
-       
         padding-left: 48px;
    }
 
     .card-img-s2-0{
- 
         /* width: 80%; 
         max-width: 180px; */
         width: 130px;
         height: 130px;
-        padding-left: 0;
-        margin: 0;
+        /* padding-left: 0;
+        margin: 0; */
     }
 
     .col-s2-g h4{
-        padding: 0;
+        /* padding: 0; */
         padding-top: 15%;
         font-size: 1.5vh;
     }
@@ -774,12 +707,10 @@
         width:  40%;
         min-width: 120px;
         max-width: 140px;
-        height: auto;
+        /* height: auto; */
         top: 50%;
         left: 50%;
         transform: translate(-40%,-25%);
-
-
     } 
 
  
