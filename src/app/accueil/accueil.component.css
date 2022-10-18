@@ -10,48 +10,28 @@ h5,h4{
 .colonnegauche{
    
     color: white;
-    text-align: justify;
+    text-align: center;
     padding-top: 15%;
     min-height: 100vh;
 }
-/* .colonnedroite{
-    
-    background-image: url("/assets/images/entete_software.jpg") ;
-    background-repeat: no-repeat;
-    background-size:  100%;
-    background-position: center;
-    min-height: 100vh; 
-} */
-
-/* .colonnedroite{
-    background: white;
-    margin: 250px 250px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    animation: myAnim 1s linear 1s infinite normal forwards;
-    animation-name: cg;
-} */
+ 
 
 .colonnedroite{
-      /* background: white; */
+    
       min-height: 100vh; 
       
     
 }
 
-/* .bord{
-	border-bottom: 2px solid white;
-	margin-top: 700px;
-} */
+ 
 
 .fa{
     color: white;
     padding-top: 10%;
     /* animation: myAnim 5s linear 1s infinite normal forwards; */
-    animation: cg 2s linear infinite forwards ;
+    animation: cg 2s linear infinite forwards  ;
     animation-name: cg; 
-    animation-duration: calc(60s/var(--i));
+    animation-duration: calc(35s/var(--i));
 }
 
 .learn{
@@ -59,24 +39,39 @@ h5,h4{
 	width: auto;
 	height: auto;
     color: black;
+	background-color: rgb(229, 192, 8);
     animation-name: savoirplus;
     animation-duration: 20s;
+	/* animation: light 5s linear   infinite  ; */
     /* animation-iteration-count: infinite;   */
     /* animation: myAnim 8s linear 0s 1 normal forwards; */
 }
 
 .btn-primary{
 	margin-left:80%;
+	 
 }
 
 h4{
+	letter-spacing: 5px; 
+	width: 100%;
     text-align: center;
-    animation: myAnimh4 5s linear 0s 1 normal forwards;
+	/* -webkit-box-reflect: below 1px linear-gradient(transparent,#000814); */
+    /* animation: myAnimh4 5s linear 0s 1 normal forwards; */
+	animation: light 5s linear   infinite  ;
+	outline: none;
+	line-height: 1.5em;
+	 
 }
 
 h5{
+	letter-spacing: 5px; 
+	width: 100%;
     text-align: center;
-    animation: myAnimh5 4s linear 0s 1 normal forwards;
+    /* animation: myAnimh5 4s linear 0s 1 normal forwards; */
+	animation: light 5s linear   infinite  ;
+	outline: none;
+	line-height: 1.5em;
 }
 
  
@@ -146,6 +141,23 @@ h5{
 	}
 	.colonnegauche{
 		padding-top: 40%;
+	}
+}
+
+
+@keyframes light {
+
+	0%,18%,20%,50.1%,60%,80%,90.1%,92%{
+		color: #f48c06;
+		text-shadow: none;
+	}
+	18.1%,20.1%,30%,50%,60%,65%,80.1%,100%{
+		color: #fff;
+		text-shadow: 0 0 10px #03bcf4,
+		0 0 20px #03bcf4,
+		0 0 40px #03bcf4,
+		0 0 80px #03bcf4,
+		0 0 160px #03bcf4,
 	}
 }
 
@@ -301,9 +313,9 @@ h5{
 }
 
 @keyframes cg {
-	0% {
-		opacity: 1;
-		transform: translateY(0vh) scale(0.4);
+	0%{
+		opacity: 0;
+		transform: translateY(-30vh) scale(0.3);
 	}
 
     /* 25% {
@@ -311,9 +323,19 @@ h5{
 		transform: translateY(100px) scale(1);
 	}*/
 
-    50% {
+	10% {
 		opacity: 1;
-		transform: translateY(40vh) scale(0.25);
+		transform: translateY(1vh) scale(0.2);
+	}
+
+	40% {
+		opacity: 1;
+		transform: translateY(40vh) scale(0.1);
+	}
+
+    70% {
+		opacity: 1;
+		transform: translateY(80vh) scale(0.01);
 	}
 
     /* 75% {
@@ -321,7 +343,7 @@ h5{
 		transform: translateY(700px) scale(1);
 	}  */
 
-	100% {
+	100%{
 		opacity: 1;
 		transform: translateY(80vh) scale(0);
 	}
