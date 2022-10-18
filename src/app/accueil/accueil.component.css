@@ -44,7 +44,7 @@ h5,h4{
     animation-duration: 20s;
 	/* animation: light 5s linear   infinite  ; */
     /* animation-iteration-count: infinite;   */
-    /* animation: myAnim 8s linear 0s 1 normal forwards; */
+    animation: myAnim 25s linear 0s 1 normal forwards;
 }
 
 .btn-primary{
@@ -74,12 +74,208 @@ h5{
 	line-height: 1.5em;
 }
 
+  .type{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	/* background-color: #03bcf4; */
+	text-align: justify;
+	font-size: clamp(0.6rem, 1vw, 1.2rem);
+	padding: 0;
+	margin: 25px 0;
+  }
+
+
+
+  /* .p1{
+	width: 100%;
+	background-color: #f48c06;
+	font-size: clamp(0.6rem, 1vw, 1.2rem);
+	color: aquamarine;
+	word-wrap: break-word;
+  } */
+
+  .typewriter_1 {
+	
+	border-right: .15em solid orange; /* The typwriter cursor */
+	overflow: hidden;
+	width: 0;
+	white-space: nowrap;  
+	letter-spacing: .11em;  
+	animation: 
+	  typing 1.5s steps(40, end) forwards
+	  ,
+	  blink-caret .75s step-end infinite;
+  }
+  
+
+  .typewriter_2 {
+ 
+	overflow: hidden;
+	border-right: .15em solid orange;
+	white-space: nowrap;  
+	width: 0;
+	letter-spacing: .12em;  
+	animation: 
+	  typing 1.5s steps(40, end) 3s forwards,
+	  blink-caret .75s step-end infinite;
+
+  }
+
+  .typewriter_3 {
+	overflow: hidden;
+	border-right: .15em solid orange;
+	white-space: nowrap;  
+	width: 0;
+	letter-spacing: .13em;   
+	animation: 
+	  typing 1.5s steps(40, end) 6s forwards,
+	  blink-caret .75s step-end infinite;
+
+  }
+
+  .typewriter_4 {
+	overflow: hidden; 
+	border-right: .15em solid orange;
+	white-space: nowrap;  
+	width: 0;
+	letter-spacing: .11em;   
+	animation: 
+	  typing 1.5s steps(40, end) 8s forwards,
+	  blink-caret .75s step-end infinite;
+
+  }
+
+  .typewriter_5 {
+	overflow: hidden;
+	border-right: .15em solid orange;
+	white-space: nowrap;  
+	width: 0;
+	letter-spacing: .11em;   
+	animation: 
+	  typing 1.5s steps(40, end) 10s   forwards,
+	  blink-caret .75s step-end   infinite;
+
+  }
+
+  
+/* 
+  .typewriter_6 {
+	text-align: justify;
+	overflow:    hidden; 
+	border-right: .15em solid orange;
+	white-space: nowrap;  
+	width: 0;
+	letter-spacing: .10em;   
+	animation: 
+	  typing 1.5s steps(40, end) 8s forwards,
+	  blink-caret .75s step-end infinite;
+
+  }
+
+  .typewriter_7 {
+	text-align: justify;
+	overflow:    hidden; 
+	border-right: .15em solid orange;
+	white-space: nowrap;  
+	width: 0;
+	letter-spacing: .10em;   
+	animation: 
+	  typing 1.5s steps(40, end) 8s forwards,
+	  blink-caret .75s step-end infinite;
+
+  } */
+
+
+
+  	/* from { width: 0; }
+	to { width: 100% ;
+		 border :none;
+	} */
+  /* The typing effect */
+  @keyframes typing {
+
+
+
+	0% {
+		 width: 0;
+		 }
  
 
-/* p {
-    animation-duration: 3s;
-    animation-name: slidein;
+	95.9% {
+		border-right: .15em solid orange;
+		 
+	}
+
+	99.9% {
+		overflow: hidden; 
+	 
+		 
+	}
+ 
+	100% { 
+	 
+		width: 100% ;
+ 
+		border :none;
+	 
+		/* white-space: pre-line; */
+		
+	}
+	
+  }
+
+  
+  
+  /* The typewriter cursor effect */
+  /* @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange; }
   } */
+
+ 
+/* 
+h1{
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 4em;
+    color: #d7b94c;
+}
+.typewriter{
+    position: relative;
+	margin: 0;
+}
+.typewriter::before{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color: #000814;
+    width: 100%;
+    animation: typing 3s steps(16) infinite forwards
+	
+}
+@keyframes typing{
+	from {
+		width: 0%;
+	}
+    to{
+        width: 100%;
+    }
+}
+@keyframes line {
+    50%{
+        color: transparent;
+    }
+} */
+
+
+
+
+
+
+
+
+
 
 
 /* @keyframes savoirplus {
