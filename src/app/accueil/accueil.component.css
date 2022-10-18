@@ -80,20 +80,20 @@ h5{
 	width: 100%;
 	/* background-color: #03bcf4; */
 	text-align: justify;
-	font-size: clamp(0.6rem, 1vw, 1.2rem);
+	/* font-size: clamp(0.6rem, 1vw, 0.9rem); */
 	padding: 0;
 	margin: 25px 0;
   }
 
 
 
-  /* .p1{
+  .p1{
 	width: 100%;
-	background-color: #f48c06;
-	font-size: clamp(0.6rem, 1vw, 1.2rem);
-	color: aquamarine;
+	/* background-color: #f48c06; */
+	font-size: clamp(0.6rem, 1.1vw, 1.1rem);
+	/* color: aquamarine; */
 	word-wrap: break-word;
-  } */
+  }
 
   .typewriter_1 {
 	
@@ -208,7 +208,7 @@ h5{
 	}
 
 	99.9% {
-		overflow: hidden; 
+		/* overflow: visible;  */
 	 
 		 
 	}
@@ -216,9 +216,9 @@ h5{
 	100% { 
 	 
 		width: 100% ;
- 
+		/* margin: 0 auto; */
 		border :none;
-	 
+		/* overflow: visible;  */
 		/* white-space: pre-line; */
 		
 	}
@@ -297,7 +297,70 @@ h1{
   }
 } */
 
+@media (max-width : 1440px){
+	.p1{
+		width: 100%;
+		text-align: justify;
+		/* background-color: #f48c06; */
+		font-size: clamp(0.6rem, 0.9vw, 1rem);
+	 
+	  }
+}
 
+@media (max-width : 1050px){
+	.p1{
+		width: 100%;
+		text-align: justify;
+		/* background-color: #f48c06; */
+		font-size: clamp(0.6rem, 0.6vw, 0.9rem);
+	 
+	  }
+
+	  @keyframes typing {
+		0% { width: 0; }
+		99.9%{
+			width: 99% ;
+		}
+		100% { 
+			 border :none;
+			 overflow: visible;
+		}
+	  }
+
+}
+
+@media (max-width:935px) {
+	.learn{
+		 margin: auto;
+		 display: block;
+		 background-color: rgb(229, 192, 8);
+	}
+	.colonnegauche{
+		padding-top: 25%;
+	}
+}
+
+@media (max-width:766px) {
+	.colonnedroite{
+		display: none;
+	}
+	.colonnegauche{
+		padding-top: 45%;
+	}
+
+	.type{
+		width: 90%;
+		margin: 20px 48px;
+		background-color: #f48c06;
+	}
+	.p1{
+		width: 100%;
+		text-align: justify;
+		/* background-color: #f48c06; */
+		font-size: clamp(0.7rem, 1.2vw, 1rem);
+		 
+	  }
+}
 
 @media (max-width : 576px){
 	.bdy{
@@ -320,25 +383,6 @@ h1{
  
 }
 
-@media (max-width:935px) {
-	.learn{
-		 margin: auto;
-		 display: block;
-		 background-color: rgb(229, 192, 8);
-	}
-	.colonnegauche{
-		padding-top: 25%;
-	}
-}
-
-@media (max-width:766px) {
-	.colonnedroite{
-		display: none;
-	}
-	.colonnegauche{
-		padding-top: 40%;
-	}
-}
 
 
 @keyframes light {
