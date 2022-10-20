@@ -8,12 +8,19 @@
 .s1{
     padding: 0;
     background: #051923;
+    /* background: #001729; */
+   
  
 }
 
 .s2{
     background:#0c1821;
+    /* background:#001A2B; */
     margin: 0;
+}
+
+.container-fluid{
+    animation: FadeIN 1s linear normal ;
 }
 
 .learn{
@@ -311,6 +318,16 @@
     padding: 0;
 
 } 
+
+@keyframes FadeIN {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 
 /*** Extra large ≥1200px ****/
 @media (min-width: 1200px) and (max-width: 1400px) {

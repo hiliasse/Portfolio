@@ -5,7 +5,8 @@
     width: 100%;
     min-height: 100vh;
     color: rgb(255, 255, 255);
-    background-color: #000814;
+    /* background-color: #000814; */
+    background-color: #001424;
 
  
 }
@@ -18,10 +19,11 @@ h4{
  
     width: 50%;
     height: 100%;
-    background-color: #0d1b2a;
+    /* background-color: #0d1b2a; */
+    background-color: #192834;
     margin: auto auto; /* permet de center */
     padding: 50px ;
-    
+    animation: FadeIN 1s linear normal ;
 }
 
 .form-row{
@@ -41,8 +43,17 @@ h4{
 
 .btn{
     width: 25%;
-    background-color: #003566;
+    /* background-color: #003566; */
+    background-color: #01497C;
     color: white;
+}
+@keyframes FadeIN {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 

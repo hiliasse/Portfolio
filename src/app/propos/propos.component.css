@@ -7,14 +7,17 @@
     padding-top: 10vh;
     text-align:  justify;
     /* background-color: #2C699A; */
-    background-color: #000814; 
+    /* background-color: #000814;  */
+    background-color: #001424; 
     color:white;
+   
 }
 .s2{
     padding-top: 10vh;
     background-color: rgb(39, 178, 39);
     color: white;
-    background-color: #000814; 
+    /* background-color: #000814;  */
+    background-color: #001A2B; 
 }
 .s3{
     background-color: beige;
@@ -29,11 +32,14 @@
  }
 
 .card{
-    background: #001d3d;
+    background: #012A4A;
+    /* background: #001d3d; */
+    animation: FadeIN 1s linear normal ;
 }
 
 .card:hover{
-    background: #003566;
+    background: #013A63;
+    /* background: #003566; */
     transform: translateX(10px);
     transition: all .6s;
 }
@@ -42,13 +48,15 @@
     font-size: clamp(0.6rem, 1.0vw, 1.1rem); 
     width: 100%;
     color: white;
-    background: #001d3d;
+    /* background: #001d3d; */
+    background: #01497C;
 }
 
 .list-group :hover{
     /* transition: all .8s; */
     /* font-size: clamp(0.9rem, 1.2vw, 1.2rem);  */
-    background: #00b4d8;
+    /* background: #00b4d8; */
+    background: #2A6F97;
 }
  
 /********************************* fin Section 1  ***********************/ 
@@ -98,7 +106,8 @@
  .progress {
     height: 1.5vh;
     margin: 10px;
-    background: #003566;
+    /* background: #003566; */
+    background: #01497C;
     /* color: aqua; */
      
  }
@@ -112,7 +121,7 @@
 .s2 ul li{
     /* background: rgb(23, 23, 23); */
     /* background: #003566; */
-    background: #003566;
+    background: #013A63;
     margin: 15px 0;
     padding: 20px 30px;
     cursor: pointer;
@@ -191,6 +200,24 @@ h4 {
 h1 {
     font-size: clamp(1rem, 1.5vw, 1.7rem); 
 }
+
+
+@keyframes FadeIN {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
 
 /*** Extra large ≥1200px ****/
 @media (min-width: 1200px) {

@@ -1,6 +1,7 @@
 .bdy{
     min-height: 100vh;
-    background-color: #000814;
+    /* background-color: #000814; */
+	background-color: #001424;
     font-size: clamp(0.6rem, 1vw, 1.2rem); 
 } 
 
@@ -34,7 +35,8 @@ h5,h4{
 	width: auto;
 	height: auto;
     color: black;
-	background-color: rgb(229, 192, 8);
+	/* background-color: rgb(229, 192, 8); */
+	background-color: #f48c06;
     animation-name: savoirplus;
     animation-duration: 20s;
 	/* animation: light 5s linear   infinite  ; */
