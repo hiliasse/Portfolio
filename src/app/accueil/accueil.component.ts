@@ -33,6 +33,7 @@ obsTimer: Observable<number> = timer(1000);
 insert: string = "";
 h4 : string = "";
 h5 : string = "";
+active : boolean = false;
 
 
   @ViewChild("textElement")
@@ -43,6 +44,9 @@ h5 : string = "";
 
   @ViewChild("headElementh4")
   headElementh4!: ElementRef;
+
+  @ViewChild("headElementh4")
+  activeElement!: ElementRef;
 
   // @ViewChild("blinkElement")
   // blinkElement!: ElementRef;
@@ -122,7 +126,7 @@ h5 : string = "";
  
     const h5_split = h5.split("");
     const h4_split = h4.split("");
-
+    // this.renderer.setProperty(this.textElement.nativeElement,"display","none");
     const loopTyping = () => {
       if (h5_split.length > 0) {
 
@@ -155,6 +159,8 @@ h5 : string = "";
 
   private typingEffect(): void {
   
+    // this.active = true;
+    //  this.renderer.setProperty(this.activeElement.nativeElement,"opacity","0");
     const word = this.wordArray[this.i].split("");
     const word_string = this.stringInterpolation.split("");
 

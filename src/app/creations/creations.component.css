@@ -7,14 +7,16 @@
 
 .s1{
     padding: 0;
-    background: #051923;
+    /* background: #051923; */
+    background: #001A2B;
     /* background: #001729; */
    
  
 }
 
 .s2{
-    background:#0c1821;
+    /* background:#0c1821; */
+    background:#051923;
     /* background:#001A2B; */
     margin: 0;
 }

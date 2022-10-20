@@ -36,12 +36,12 @@ h5,h4{
 	height: auto;
     color: black;
 	/* background-color: rgb(229, 192, 8); */
-	background-color: #f48c06;
+	background-color: #cd7503;
     animation-name: savoirplus;
     animation-duration: 20s;
 	/* animation: light 5s linear   infinite  ; */
     /* animation-iteration-count: infinite;   */
-    animation: myAnim 32s linear 0s 1 normal forwards;
+    animation: myAnim 30s linear 0s 1 normal forwards;
 }
 
 .btn-primary{
@@ -59,6 +59,13 @@ h4{
 	line-height: 1.5em;
 }
 
+/* h4::after{
+	content:'';
+	border-right: .15em solid orange; 
+	opacity: 0;
+	animation:  blink .75s  ease-in-out  infinite;
+} */
+
 h5{
 	letter-spacing: 5px; 
 	width: 100%;
@@ -69,48 +76,75 @@ h5{
 	line-height: 1.5em;
 }
 
-  .type{
+
+/* .head h5::before,h4::before{
+	content:'';
+	border-right: .15em solid rgb(230, 7, 7); 
+	opacity: 1;
+	 
+} */
+
+.head h5::after,h4::after{
+	content:'';
+	border-right: .15em solid orange; 
+	opacity: 1;
+	animation:  blinkhead .75s  ease-in-out 2s infinite;
+}
+
+.type{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	text-align: justify;
 	padding: 0;
 	margin: 25px 0;
-  }
+}
 
-  .typing{
+.typing{
 	display:inline-block;
 	text-align: justify;
 	letter-spacing: .11em;
 	font-size: clamp(1rem, 1.1vw, 1.1rem); 
 	width:95%;
 	margin: 5px 25px;
-  }
+ 
+}
 
  
-  .typing p::after {
-	content:'|';
-	color: white;
+.typing p::after {
+	/* content:'|'; */
+	content:'';
+	/* color: white; */
+	border-right: .15em solid orange; 
+	opacity: 0;
 	animation:  blink .75s  ease-in-out 2s infinite;
-	/* animation-fill-mode: forwards;  */
-  }
+ 
+}
 
-  .blink {
+/* .blink {
 	border-right-style: solid;
 	animation: 1s blink infinity;
-  }
+} */
 
   @keyframes blink {
 
 	0% {
-		opacity: 1;
- 
-
+		opacity: 0;
 	}
 	100% {
-		color: white;
-		display: none;
+	  	opacity: 1;
+	}
+  }  
+
+  @keyframes blinkhead {
+
+	0% {
+		opacity: 0;
+		/* display: none; */
+	}
+	100% {
 	  	opacity: 0;
+		display: none;
 	}
   }  
 
