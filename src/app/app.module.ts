@@ -8,6 +8,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { ProposComponent } from './propos/propos.component';
 import { CreationsComponent } from './creations/creations.component';
 import { ContactComponent } from './contact/contact.component';
+ 
 
 @NgModule({
   declarations: [
