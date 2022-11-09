@@ -26,7 +26,7 @@ export class AccueilComponent implements OnInit,AfterViewInit  {
 
 typeSpeed!: number;
 stringInterpolation : string = 
-"Passionné d'informatique et doté d’une grande curiosité, je suis un developppeur java débutant.Je développe aussi bien en back qu'en front avec une appétence  pour le web.Je suis aujourd hui à la recherche d’une première mission java en région parisienne pour lancer ma carrière Développeur java. Vous souhaitez en savoir plus sur mon parcours et mes compétences ! ";
+"Passionné d'informatique et doté d’une grande curiosité, je suis un developppeur java débutant.Je développe aussi bien en back qu'en front avec une appétence pour le web.Je recherche actuellement ma première mission java en région parisienne pour lancer ma carrière Développeur java.Vous souhaitez en savoir plus sur mon parcours et mes compétences ! ";
 
 stateGrow: any;
 obsTimer: Observable<number> = timer(1000);
@@ -173,7 +173,7 @@ active : boolean = false;
         // console.log(" word_string " + word_string);
       }
       setTimeout(loopTyping, this.typingSpeedMilliseconds);
-      // this.renderer.setStyle(this.textElement.nativeElement,"display","inline-block");
+      // this.renderer.setStyle(this.textElement.nativeElement,"text-align","inline-block");
    
     };
     loopTyping();
