@@ -500,19 +500,21 @@ h1 {
         width: 80%;
     }
 
+    /***** Logiciels***/
     .s2-r3-col-g ul  {
         margin-left: 20%; 
-        width: 100%;
-        /* text-align: justify; */
-
+        width: 90%;
     }
 
     .list-group-item{
-        /* font-size: clamp(0.6rem, 1.0vw, 1.1rem);  */
         width: 100%;
         text-align: left;
+    }
 
- 
+    .r{
+        margin: 0;
+        border-color: aqua;
+        /* width: 100%; */
     }
 }
 
