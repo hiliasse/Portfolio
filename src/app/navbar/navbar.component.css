@@ -30,12 +30,17 @@ ul li:hover{
  }
  
  
- @media (max-width : 794px) {
+ @media (max-width : 867px) {
     .form-check{
         display: none;
     }
+
+    /* ul li {
+        margin: 0;
+    } */
     ul li a{
         font-size: 13px;
+      
     }
     .navbar-brand {
 
@@ -44,16 +49,16 @@ ul li:hover{
     
  }
 
- @media (max-width :622px) {
+ @media (max-width :719px) {
     ul li a{
-        font-size: 13px;
+        font-size: 12px;
  
-        padding: 5px;
+        padding: 2px;
 
     }
     .navbar-brand {
 
-        font-size: 13px;
+        font-size: 12px;
     }
     
  }
